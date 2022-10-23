@@ -4,6 +4,7 @@
 Alison Cook
 Michael Fischer
 Rafael Silva-Almodovar
+Contacts: Slack, Zoom meeting study sessions evenings M and W
 
 ## Overview/ Purpose
 Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature to predict climate changes by Country and in global Major Cities
