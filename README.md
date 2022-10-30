@@ -66,10 +66,14 @@ ERD- Connecting data sets by Datetime (dt) and City (city) for use in database a
 Database
 
 Supervised Machine Learning: Linear regression and Random Forest Classification
+
 	This dataset contains 10 columns which means we are dealing with irrelevant content.
-		Droped the non-beneficial columns such as 'Unnamed: 0', 'LandAverageTemperatureUncertainty', 'LandMaxTemperatureUncertainty', 'LandMinTemperatureUncertainty', 'LandAndOceanAverageTemperatureUncertainty' for machine learning process.
-		Unnamed column was dropped as it is a secondary index column and not needed for testing. 
-		All Uncertainty colums were dropped since they dont have clear contributions to the average data we are testing.
+
+	Droped the non-beneficial columns such as 'Unnamed: 0', 'LandAverageTemperatureUncertainty', 'LandMaxTemperatureUncertainty', 'LandMinTemperatureUncertainty', 'LandAndOceanAverageTemperatureUncertainty' for machine learning process.
+	
+	Unnamed column was dropped as it is a secondary index column and not needed for testing. 
+	
+	All Uncertainty colums were dropped since they dont have clear contributions to the average data we are testing.
 
 	After the pre-processing, the dataset now contains 5 data relative columns.
 
