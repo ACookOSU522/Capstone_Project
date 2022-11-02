@@ -1,13 +1,15 @@
 # Capstone_Project
 
 ## Team 6:
-Alison Cook- Square
+Alison Cook- Square (Dashboard/Slides/Tableau)
 
-Michael Fischer- Circle
+Michael Fischer- Circle (Data Cleaning/Database)
 
-Rafael Silva-Almodovar- Triangle
+Rafael Silva-Almodovar- Triangle (Modeling)
 
-Contacts: Slack, Zoom meeting study sessions in class
+Kelli Magsig- X (Presentation)
+
+Contacts/Communication: Slack, Zoom meeting study sessions in class
 
 ## Overview/ Purpose
 Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eighty years of Canadian climate data to predict climate changes for 3 major cities (Lagos, Montreal, and Shianghai)
@@ -77,10 +79,12 @@ Supervised Machine Learning: Linear regression and Random Forest Classification
 
 	After the pre-processing, the dataset now contains 5 data relative columns.
 
-Dashboard/Visualization
+Dashboard with Interactive Tableau Story and GIF Visualization
 	
 
 ## Summary/ Improvements
  Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
 [Recommendation: multiple linear regression 
+
+
 whats next? what did we learn? and why do we care about what we learned? if water temperature was removed, or only tested on land locked states?]
