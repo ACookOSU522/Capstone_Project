@@ -1,0 +1,22 @@
+Presentation content:
+Topic:
+Reason:
+Sources:
+Questions to answer:
+Description of exploration:
+Description of analysis
+
+Google Slides Presentation:
+Slide 1- Cover	
+Slide 2- Overview+ Scope+ Questions+ Steps in solution
+Slide 3- Dashboard
+Slide 4- Data cleaning
+Slide 5- Cleaning visuals
+SLide 6 - Model
+SLide 7-
+Slide 8- Model Visuals
+Slide 9- Summary + future project suggestions
+SLide 10- Resources
+Slide 11- talking points (for presentation)
+
+https://docs.google.com/presentation/d/1-z85JcXZvhZiptGr7-FeUXKVXUaN76JUyfb_Ot5wezs/edit#slide=id.g1727ce99c01_0_1
