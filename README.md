@@ -83,4 +83,5 @@ Dashboard/Visualization
 ## Summary/ Improvements
  Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
 [Recommendation: multiple linear regression 
+
 whats next? what did we learn? and why do we care about what we learned? if water temperature was removed, or only tested on land locked states?]
