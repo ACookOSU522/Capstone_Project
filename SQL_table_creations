@@ -1,0 +1,46 @@
+CREATE TABLE major_cities (
+	datetime varchar,
+	AverageTemperature float,
+	AverageTemperatureUncertainty float,
+	City varchar,
+	Country varchar,
+	Latitude float,
+	Longitude float
+	);
+CREATE TABLE countries (
+	dt varchar,
+	AverageTemperature float,
+	AverageTemperatureUncertainty float,
+	Country varchar,
+	Latitude float,
+	Longitude float
+	);
+CREATE TABLE global_temp (
+	dt varchar,
+	LandAverageTemperature float,
+	LandAverageAverageTemperatureUncertainty float,
+	LandMaxTemperature float,
+	LandMaxTemperatureUncertainty float,
+	LandMinTemperature float,
+	LandMinTemperatureUncertainty float
+	); 
+CREATE TABLE montreal_monthly (
+        local_date varchar,
+        mean_temperature_montreal float,
+        total_percipitation_montreal
+        );
+	
+CREATE TABLE Shanghai AS 
+SELECT * 
+FROM major_cities
+WHERE city = 'Shanghai' and datetime >= '2000';
+
+CREATE TABLE Lagos AS 
+SELECT * 
+FROM major_cities
+WHERE city = 'Lagos' and datetime >= '2000';
+
+CREATE TABLE Montreal AS
+SELECT *
+FROM major_cities
+WHERE city = 'Montreal' and datetime >= '2000';
