@@ -64,8 +64,10 @@ Data cleaning:
 	Create sample data sets and convert to CSV file
 
 ERD- Connecting data sets by Datetime (dt) and City (city) for use in database and model testing
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/106544424/199624648-d2bca78f-635f-4b54-a92a-d4895a09ca37.png)
 
 Database
+![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
 
 Supervised Machine Learning: Linear regression and Random Forest Classification
 
@@ -81,6 +83,7 @@ Supervised Machine Learning: Linear regression and Random Forest Classification
 
 Dashboard with Interactive Tableau Story and GIF Visualization
 	
+![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
 ## Summary/ Improvements
  Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
