@@ -40,6 +40,48 @@ Kaggle Dataset: Climate Change: Earth Surface Temperature Data (https://www.kagg
 GlobalTemperatures.csv, GlobalTemperaturesByCountry.csv, GlobalTemperaturesByMajorCity.csv
 
 Kaggle Dataset: Eighty years of Canadian climate data (https://www.kaggle.com/datasets/aturner374/eighty-years-of-canadian-climate-data)
+# Capstone_Project
+
+## Team 6:
+Alison Cook- Square (Dashboard/Slides/Tableau)
+
+Michael Fischer- Circle (Data Cleaning/Database)
+
+Rafael Silva-Almodovar- Triangle (Modeling)
+
+Kelli Magsig- X (Presentation)
+
+Contacts/Communication: Slack, Zoom meeting study sessions in class
+
+## Overview/ Purpose
+Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eighty years of Canadian climate data to predict climate changes for 3 major cities (Lagos, Montreal, and Shianghai)
+1- Cleaning the datasets to remove years prior to 1900 then narrowing down from 2000-2013, dropping NaN, filtered for Northern Hemispheres and further broken down by 3 cities data only.
+
+2- Splitting data into tables using SQLalchemy/PgAdmin.
+
+3- Supervised machine learning models with process (load data and drop un-necessary columns), train (50% data), test (50% data), predict() and include results (accuracy r-squared 99%) and why choose specific model[linear regression and random forest classifier(top items)], 
+
+4- Visulazation answering questions and dashboard items(interactive(dashboard buttons) and static(tableau))
+
+
+Questions to answer:
+
+1- Will the 2000-2013 weather trends indicate an increase in Earth surface temperature for Lagos, Nigeria; Shanghai, China and Montreal, Canada?
+
+2- What are the global increases in average temperature over time?
+
+3- Do major cities impact climate change heavier?
+
+4- Does relation to the equator have an effect?
+
+5- What model would best predict future climate change? 
+
+
+## Resources and References
+Kaggle Dataset: Climate Change: Earth Surface Temperature Data (https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data?resource=download)
+GlobalTemperatures.csv, GlobalTemperaturesByCountry.csv, GlobalTemperaturesByMajorCity.csv
+
+Kaggle Dataset: Eighty years of Canadian climate data (https://www.kaggle.com/datasets/aturner374/eighty-years-of-canadian-climate-data)
 
 SQLalchemy/pgAdmin
 
@@ -64,8 +106,10 @@ Data cleaning:
 	Create sample data sets and convert to CSV file
 
 ERD- Connecting data sets by Datetime (dt) and City (city) for use in database and model testing
+![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/106544424/199624648-d2bca78f-635f-4b54-a92a-d4895a09ca37.png)
 
 Database
+![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
 
 Supervised Machine Learning: Linear regression and Random Forest Classification
 
@@ -81,6 +125,7 @@ Supervised Machine Learning: Linear regression and Random Forest Classification
 
 Dashboard with Interactive Tableau Story and GIF Visualization
 	
+![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
 ## Summary/ Improvements
  Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
