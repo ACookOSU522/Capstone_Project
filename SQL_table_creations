@@ -15,14 +15,16 @@ CREATE TABLE countries (
 	Latitude float,
 	Longitude float
 	);
-CREATE TABLE global_temp (
+CREATE TABLE globaltemperatures (
 	dt varchar,
 	LandAverageTemperature float,
-	LandAverageAverageTemperatureUncertainty float,
+	LandAverageTemperatureUncertainty float,
 	LandMaxTemperature float,
 	LandMaxTemperatureUncertainty float,
 	LandMinTemperature float,
-	LandMinTemperatureUncertainty float
+	LandMinTemperatureUncertainty float,
+	LandAndOceanAverageTemperature float,
+	LandAndOceanAverageTemperatureUncertainty float
 	); 
 CREATE TABLE montreal_monthly (
         local_date varchar,
