@@ -15,7 +15,7 @@ CREATE TABLE countries (
 	Latitude float,
 	Longitude float
 	);
-CREATE TABLE globaltemperatures (
+CREATE TABLE global_temp (
 	dt varchar,
 	LandAverageTemperature float,
 	LandAverageTemperatureUncertainty float,
