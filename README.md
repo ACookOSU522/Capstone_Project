@@ -23,7 +23,7 @@ Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eigh
 4- Visulazation answering questions and dashboard items(interactive(dashboard buttons) and static(tableau))
 
 
-Questions to answer:
+### Questions to answer:
 
 1- Will the 2000-2013 weather trends indicate an increase in Earth surface temperature for Lagos, Nigeria; Shanghai, China and Montreal, Canada?
 
@@ -50,18 +50,7 @@ Tableau
 
 Google Slides: https://docs.google.com/presentation/d/1-z85JcXZvhZiptGr7-FeUXKVXUaN76JUyfb_Ot5wezs/edit#slide=id.g1727fbf119b_0_35
 
-Supervised Machine Learning:
-- Preliminary feature engineering and preliminary feature selection, including decision-making process.
-
-- Out of the data that was left after pre-processing, we found that the most relevant columns to determine land and ocean average temperature are "LandAverageTemperature", "LandMaxTemperature", and, "LandMinTemperature". We also found that it did not make sense to use "LandAndOceanAverageTemperature" to predict any of the other variables, so we made this our target variable. Considering the data we had included features and targets, the best way to map the data was through supervised machine learning.
-
-Description of how data was split into train and test set
-
-- Considering we have about 1992 rows of data after pre-processing, we found that training about 75% of the data, to then test on 25% of the data was the best split.
-
-Model choice including advantages and disadvantages
-
-- Since our target value is continuous, we decided that a multiple linear regression model was best. The advantages associated with this model include being simple to implement, the algorithm works best when there is a clear linear relationship between the dependent and independent variables. Some disadvantages include that it assumes a straight-line relationship between independent and dependent variables, it does not take into account the attributes involved, outliers can have great impact on the data, and since linear regression looks at the relationship between the mean of the variables, the whole story and description of variables is not being told. 
+Supervised Machine Learning
 
 
 ## Results
@@ -79,23 +68,32 @@ ERD- Connecting data sets by Datetime (dt) and City (city) for use in database a
 ![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/106544424/199624648-d2bca78f-635f-4b54-a92a-d4895a09ca37.png)
 
 Database
+1- loading tables into SQLalchemy using master data sets and cleaned version 
+2- 
+3-
 ![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
 
 
-Supervised Machine Learning: Linear regression and Random Forest Classification
-
-	This dataset contains 10 columns which means we are dealing with irrelevant content.
-
-	Droped the non-beneficial columns such as 'Unnamed: 0', 'LandAverageTemperatureUncertainty', 'LandMaxTemperatureUncertainty', 'LandMinTemperatureUncertainty', 'LandAndOceanAverageTemperatureUncertainty' for machine learning process.
+### Supervised Machine Learning: Linear regression and Random Forest Classification:
+1- Preliminary feature engineering and preliminary feature selection, including decision-making process.
+	- Unnamed column was dropped as it is a secondary index column and not needed for testing. 	
+		- All Uncertainty colums were dropped since they do not clearly contribute to the average data we are testing.
+2- Out of the data that was left after pre-processing, we found that the most relevant columns to determine land and ocean average temperature are "LandAverageTemperature", "LandMaxTemperature", and, "LandMinTemperature". We also found that it did not make sense to use "LandAndOceanAverageTemperature" to predict any of the other variables, so we made this our target variable. 
+	- Considering the data we had included features and targets, the best way to map the data was through supervised machine learning.
 	
-	Unnamed column was dropped as it is a secondary index column and not needed for testing. 
-	
-	All Uncertainty colums were dropped since they dont have clear contributions to the average data we are testing.
+3- Description of how data was split into train and test set
+	- Early machine modeling tested on 25% of data with pipeline linear regression MAE 7.3%, and Random Forest Model MAE 6.4%, testing r-squared of 99%.
+	- Considering we have about 1992 rows of data after pre-processing, we found that training about 75% of the data, to then test on 25% of the data was the best split.
 
-	After the pre-processing, the dataset now contains 5 data relative columns.
+4- Model choice including advantages and disadvantages
+	- accuracy score + image
+	- Since our target value is continuous, we decided that a multiple linear regression model was best. 
+	- The advantages associated with this model include being simple to implement, the algorithm works best when there is a clear linear relationship between the dependent and independent variables. 
+	- Some disadvantages include that it assumes a straight-line relationship between independent and dependent variables, it does not take into account the attributes involved, outliers can have great impact on the data.
+	- Since linear regression looks at the relationship between the mean of the variables, the whole story and description of variables is not being told. 
 
 
-Dashboard with Interactive Tableau Story and GIF Visualization
+### Dashboard with Interactive Tableau Story and GIF Visualization
 	
 ![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
