@@ -9,10 +9,10 @@ Rafael Silva-Almodovar- Triangle (Modeling)
 
 Kelli Magsig- X (Presentation)
 
-Contacts/Communication: Slack, Zoom meeting study sessions in class
 
 
 ## Overview/ Purpose
+### Selected data set to 
 Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eighty years of Canadian climate data to predict climate changes for 3 major cities (Lagos, Montreal, and Shianghai)
 1- Cleaning the datasets to remove years prior to 1900 then narrowing down from 2000-2013, dropping NaN, filtered for Northern Hemispheres and further broken down by 3 cities data only.
 
@@ -93,7 +93,7 @@ Database
 	- Since linear regression looks at the relationship between the mean of the variables, the whole story and description of variables is not being told. 
 
 
-### Dashboard with Interactive Tableau Story and GIF Visualization
+### Dashboard with Interactive Tableau Story and Carousel Visualization
 	
 ![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
