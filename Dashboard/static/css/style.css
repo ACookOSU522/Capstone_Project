@@ -1,0 +1,13 @@
+.jumbotron {
+    background-image: url("../images/NOAA.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    text-align: center;
+}
+
+/* .picture {
+    background-image: url("../images/Nasa.jpg");
+    background-size: 100% 100%;
+    height: 100%;
+    text-align: center;
+} */
