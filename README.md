@@ -10,10 +10,11 @@ Rafael Silva-Almodovar- Triangle (Modeling)
 Kelli Magsig- X (Presentation)
 
 
-
 ## Overview/ Purpose
-### Selected data set to 
+### Data selected in an effort to learn degree of global warming based on latitude 
+
 Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eighty years of Canadian climate data to predict climate changes for 3 major cities (Lagos, Montreal, and Shianghai)
+
 1- Cleaning the datasets to remove years prior to 1900 then narrowing down from 2000-2013, dropping NaN, filtered for Northern Hemispheres and further broken down by 3 cities data only.
 
 2- Splitting data into tables using SQLalchemy/PgAdmin.
@@ -75,6 +76,7 @@ Database
 
 
 ### Supervised Machine Learning: Linear regression and Random Forest Classification:
+
 1- Preliminary feature engineering and preliminary feature selection, including decision-making process.
 	- Unnamed column was dropped as it is a secondary index column and not needed for testing. 	
 		- All Uncertainty colums were dropped since they do not clearly contribute to the average data we are testing.
@@ -86,14 +88,17 @@ Database
 	- Considering we have about 1992 rows of data after pre-processing, we found that training about 75% of the data, to then test on 25% of the data was the best split.
 
 4- Model choice including advantages and disadvantages
-	- accuracy score + image
+	- accuracy score r-square =99%
 	- Since our target value is continuous, we decided that a multiple linear regression model was best. 
 	- The advantages associated with this model include being simple to implement, the algorithm works best when there is a clear linear relationship between the dependent and independent variables. 
 	- Some disadvantages include that it assumes a straight-line relationship between independent and dependent variables, it does not take into account the attributes involved, outliers can have great impact on the data.
 	- Since linear regression looks at the relationship between the mean of the variables, the whole story and description of variables is not being told. 
-
+![LinearReg](https://user-images.githubusercontent.com/106544424/201238944-977cc328-b8b6-4600-bde5-0b8667d9d9a8.png)
+ 
 
 ### Dashboard with Interactive Tableau Story and Carousel Visualization
+![Dash 11922](https://user-images.githubusercontent.com/106544424/201239187-a84e16a8-313d-4ae4-bc2a-02d71fbbe769.png)
+![Dash 11922-2](https://user-images.githubusercontent.com/106544424/201239201-8d2d825c-c440-48b7-b9d7-0d9d76b92f91.png)
 	
 ![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
@@ -102,5 +107,4 @@ Database
  Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
 
 
-whats next? what did we learn? and why do we care about what we learned? if water temperature was removed, or only tested on land locked states?]
 
