@@ -19,9 +19,9 @@ Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eigh
 
 2- Splitting data into tables using SQLalchemy/PgAdmin.
 
-3- Supervised machine learning models with process (load data and drop un-necessary columns), train (50% data), test (50% data), predict() and include results (accuracy r-squared 99%) and why choose specific model[linear regression and random forest classifier(top items)], 
+3- Supervised machine learning models with process (load data and drop un-necessary columns), train (50% data), test (50% data), predict() and include results (accuracy r-squared 99%) and why choose specific model, linear regression and random forest classifier. 
 
-4- Visulazation answering questions and dashboard items(interactive(dashboard buttons) and static(tableau))
+4- Dashboard visualizationv answering questions
 
 
 ### Questions to answer:
@@ -57,19 +57,30 @@ Supervised Machine Learning
 ## Results
 Data cleaning: 
 	Reviewed Data:
-		Types pf data in each column
-		Check for unique values
-		Counts for values
-	Filtering for Northern Hemisphere data only
-	Dropped the Null values
-	LOC filtered data for only year 1900CE-2013CE
-	Create sample data sets and convert to CSV file
+	- Types of data in each column
+	![Capture](https://user-images.githubusercontent.com/106544424/201540347-870c9177-50f4-43d4-9bdb-0e30c17f8899.PNG)
 
-ERD- Connecting data sets by Datetime (dt) and City (city) for use in database and model testing
-![QuickDBD-Free Diagram (1)](https://user-images.githubusercontent.com/106544424/199624648-d2bca78f-635f-4b54-a92a-d4895a09ca37.png)
+	- Check for unique values
+	- Counts for values
+	- Filtering for Northern Hemisphere data only
+	![countries_no_cords](https://user-images.githubusercontent.com/106544424/201540392-c40002e7-0a35-4de8-875d-683396cdfada.PNG)
+
+	- Dropped the Null values
+	- LOC filtered data for only year 1900CE-2013CE
+	![date time format](https://user-images.githubusercontent.com/106544424/201540332-c48322c0-8445-459a-9612-fbb436fca115.PNG)
+
+	Create sample data sets and convert to CSV file
+![merging data](https://user-images.githubusercontent.com/106544424/201540335-64b435db-4662-4ea3-8418-6154438f2b59.PNG)
+
+
+ERD
+- Connecting data sets by Datetime, Country, Average Temperature and City for use in database and model testing
+![final ERD](https://user-images.githubusercontent.com/106544424/201540239-6b50e348-8fff-44fe-a45c-b18d2b195a5c.png)
 
 Database
 1- loading tables into SQLalchemy using master data sets and cleaned version 
+
+
 2- 
 3-
 ![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
@@ -97,14 +108,18 @@ Database
  
 
 ### Dashboard with Interactive Tableau Story and Carousel Visualization
+Dashboard created to show increase in temperatures with sliding carousel specific to 13 year data set, highlighting global temperature increase. Also showcasing Supervised Learning linear model trend
 ![Dash 11922](https://user-images.githubusercontent.com/106544424/201239187-a84e16a8-313d-4ae4-bc2a-02d71fbbe769.png)
+
+Interactive Tableau charts with pop-ups to illustrate locatin specific charts of annual overall temperature increase
 ![Dash 11922-2](https://user-images.githubusercontent.com/106544424/201239201-8d2d825c-c440-48b7-b9d7-0d9d76b92f91.png)
 	
 ![Tableau trend model](https://user-images.githubusercontent.com/106544424/199624753-4d85f91b-fbde-4911-a330-3345f1383798.png)
 
 
 ## Summary/ Improvements
- Improvments for future data testing, locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data availabe for more accurate predictive modeling. 
+ Improvements for future data testing: locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling. 
+ Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
 
 
 
