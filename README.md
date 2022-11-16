@@ -132,6 +132,8 @@ Interactive Tableau charts with pop-ups to illustrate locatin specific charts of
 
 ### Improvements:
 -Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling. 
+
 -Utilize humidity as a measured data set to check for fluctuation in results.
+
 -Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
 
