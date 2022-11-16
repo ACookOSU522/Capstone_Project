@@ -1,0 +1,15 @@
+Dashboard Speaking notes:
+Build as INDEX.html
+- Carousel: 2000 9.20, 2001 9.40, 2002 9.59, 2003 9.53, 2004 9.33, 2005 9.70, 2006 9.53, 2007 9.73, 2008 9.43, 2009 9.51, 2010 9.70, 2011 9.52, 2012 9.51, 2013 9.97
+
+As Rafael mentioned for Suprvsd machine linear regression and random forest regressor models the data highly supported the question of: 
+is the world getting warmer, a 99% accuracy rate says YES!!!!
+
+World Map trend line showing the upward tick in temperatures illustrated in carousel images
+- 3 city increase chart gives detailed trend lines for for average temp 
+- Land Max Temps: Montreal Trend:+1.26° LM (+3.61° Avg temp) Shanghai Trend:+0.91° LM (+2.06° Avg temp) Lagos Trend:+0.91° LM (+0.97° Avg temp)
+- dual trend line map shows each city/country with average temp and average land temp increases
+- Highlight year heat map increase of +0.74 °C ( in 13 year time span is very bad, melting glaciers and rising sealevels)
+- 100 year temp--> Ocean front property= DOOM!
+
+FInal slides to discuss summary/findings/ things for future testing, ideas, and resources. 
