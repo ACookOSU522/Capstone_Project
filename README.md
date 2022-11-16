@@ -131,9 +131,14 @@ Interactive Tableau charts with pop-ups to illustrate locatin specific charts of
 5- What model would best predict future climate change? The random forest regressor model seemed best to test for the data given. If the variables were to change, the model used may need to be revised. 
 
 ### Improvements:
--Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling. 
+Future data testing:
+
+-Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling.
 
 -Utilize humidity as a measured data set to check for fluctuation in results.
 
 -Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
 
+- Change data set to focus on landlocked locations (Nepal, Chad, Belarus, Bolivia) and or to see if large stand-alone continents (Australia, Antarctica, Greenland) show varied results
+
+Suggestion: Continue to span the trending models out to years 2035, or 2050, or farther into the future to attempt to curb climate temperature increase contributing factors
