@@ -133,11 +133,11 @@ Interactive Tableau charts with pop-ups to illustrate locatin specific charts of
 ### Improvements:
 Future data testing:
 
--Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling.
+- Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling.
 
--Utilize humidity as a measured data set to check for fluctuation in results.
+- Utilize humidity as a measured data set to check for fluctuation in results.
 
--Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
+- Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
 
 - Change data set to focus on landlocked locations (Nepal, Chad, Belarus, Bolivia) and or to see if large stand-alone continents (Australia, Antarctica, Greenland) show varied results
 
