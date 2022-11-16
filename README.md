@@ -83,6 +83,7 @@ Database
 3-Created a workable database with SQLalchemy using master data sets and cleaned version
 
 ![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
+![SQL_Database](https://user-images.githubusercontent.com/106544424/202060493-d320a47b-6b49-4f79-a21a-d796d945686e.png)
 
 
 ### Supervised Machine Learning: Linear regression and Random Forest Classification:
