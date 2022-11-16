@@ -19,9 +19,9 @@ Reviewing Kaggle Dataset for Climate Change: Earth Surface Temperature, and Eigh
 
 2- Splitting data into tables using SQLalchemy/PgAdmin.
 
-3- Supervised machine learning models with process (load data and drop un-necessary columns), train (50% data), test (50% data), predict() and include results (accuracy r-squared 99%) and why choose specific model, linear regression and random forest classifier. 
+3- Supervised machine learning models with process (load data and drop un-necessary columns), train (50% data), test (50% data), predict() and include results (accuracy r-squared 99%) and why choose specific model: linear regression and random forest classifier. 
 
-4- Dashboard visualizationv answering questions
+4- Dashboard visualizations answering questions
 
 
 ### Questions to answer:
@@ -56,20 +56,20 @@ Supervised Machine Learning
 
 ## Results
 Data cleaning: 
-	Reviewed Data:
-	- Types of data in each column
-	![Capture](https://user-images.githubusercontent.com/106544424/201540347-870c9177-50f4-43d4-9bdb-0e30c17f8899.PNG)
+Reviewed Data:
+- Types of data in each column
+![Capture](https://user-images.githubusercontent.com/106544424/201540347-870c9177-50f4-43d4-9bdb-0e30c17f8899.PNG)
 
-	- Check for unique values
-	- Counts for values
-	- Filtering for Northern Hemisphere data only
-	![countries_no_cords](https://user-images.githubusercontent.com/106544424/201540392-c40002e7-0a35-4de8-875d-683396cdfada.PNG)
+- Check for unique values
+- Counts for values
+- Filtering for Northern Hemisphere data only
+![countries_no_cords](https://user-images.githubusercontent.com/106544424/201540392-c40002e7-0a35-4de8-875d-683396cdfada.PNG)
 
-	- Dropped the Null values
-	- LOC filtered data for only year 1900CE-2013CE
-	![date time format](https://user-images.githubusercontent.com/106544424/201540332-c48322c0-8445-459a-9612-fbb436fca115.PNG)
+- Dropped the Null values
+- LOC filtered data for only year 1900CE-2013CE
+![date time format](https://user-images.githubusercontent.com/106544424/201540332-c48322c0-8445-459a-9612-fbb436fca115.PNG)
 
-	Create sample data sets and convert to CSV file
+Create sample data sets and convert to CSV file
 ![merging data](https://user-images.githubusercontent.com/106544424/201540335-64b435db-4662-4ea3-8418-6154438f2b59.PNG)
 
 
@@ -78,11 +78,10 @@ ERD
 ![final ERD](https://user-images.githubusercontent.com/106544424/201540239-6b50e348-8fff-44fe-a45c-b18d2b195a5c.png)
 
 Database
-1- loading tables into SQLalchemy using master data sets and cleaned version 
+1- Identified unnecessary data points
+2- Narrowed the scope of the analysis
+3-Created a workable database with SQLalchemy using master data sets and cleaned version
 
-
-2- 
-3-
 ![Capture](https://user-images.githubusercontent.com/106544424/199624661-3b35a639-209a-484e-a04d-b8ac86e493a5.PNG)
 
 
@@ -119,8 +118,19 @@ Interactive Tableau charts with pop-ups to illustrate locatin specific charts of
 
 
 ## Summary/ Improvements
- Improvements for future data testing: locate cities closer to ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling. 
- Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
+### Summary:
+1- Will the 2000-2013 weather trends indicate an increase in Earth surface temperature for Lagos, Nigeria; Shanghai, China and Montreal, Canada? Yes, accurate data representation for supporting an observed increase in overall global temperature.
 
+2- What are the global increases in average temperature over time? Montreal +3.0%(4.2M), Lagos +0.4% increase (14.8M), Shanghai +1.5%(27.8M). 
 
+3- Do major cities impact climate change heavier? Population did not have an effect on Montreal +3.0%(4.2M), Lagos +0.4% increase (14.8M), Shanghai +1.5%(27.8M). 
+
+4- Does relation to the equator have an effect? No, average temperature was a slower increase over time period at equator location. 
+
+5- What model would best predict future climate change? The random forest regressor model seemed best to test for the data given. If the variables were to change, the model used may need to be revised. 
+
+### Improvements:
+-Locate additional cities near ocean temperature affected bodies of water (large lakes or icebergs), would increase data available for more accurate predictive modeling. 
+-Utilize humidity as a measured data set to check for fluctuation in results.
+-Retest data for areas prone to impactful weather patterns (fires, hurricanes, tornados, floods)and see if they indicate increase temperature trends.
 
