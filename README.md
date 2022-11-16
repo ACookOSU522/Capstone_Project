@@ -95,16 +95,16 @@ Database
 	- Considering the data we had included features and targets, the best way to map the data was through supervised machine learning.
 	
 3- Description of how data was split into train and test set
-	- Early machine modeling tested on 25% of data with pipeline linear regression MAE 7.3%, and Random Forest Model MAE 6.4%, testing r-squared of 99%.
+	- Early machine modeling tested on 25% of data with pipeline linear regression MAE 0.1567, and Random Forest Model MAE 0.1355, testing r-squared of 97.67%, and 98.04% for RFR.
 	- Considering we have about 1992 rows of data after pre-processing, we found that training about 75% of the data, to then test on 25% of the data was the best split.
 
 4- Model choice including advantages and disadvantages
-	- accuracy score r-square =97.67%
+	- accuracy score r-square = Linear Regression - 97.67, RFR - 98.04%
 	- Since our target value is continuous, we decided that a multiple linear regression model was best. 
 	- The advantages associated with this model include being simple to implement, the algorithm works best when there is a clear linear relationship between the dependent and independent variables. 
 	- Some disadvantages include that it assumes a straight-line relationship between independent and dependent variables, it does not take into account the attributes involved, outliers can have great impact on the data.
 	- Since linear regression looks at the relationship between the mean of the variables, the whole story and description of variables is not being told. 
-	- For random forest some advantage include reduced overfitting in decision tree, its flexible to both classification and regression problems, works with categorical and continuous variable, normalization is not required, and it automates missing values present in data. Some disadvantages include needing extra computational power due to numerous trees it builds, it requires more time for training data, and it fails to determine the significance of each value.
+	- For random forest some advantages include reduced overfitting in decision tree, its flexible to both classification and regression problems, works with categorical and continuous variable, normalization is not required, and it automates missing values present in data. Some disadvantages include needing extra computational power due to numerous trees it builds, it requires more time for training data, and it fails to determine the significance of each value.
 ![LinearReg](https://user-images.githubusercontent.com/106544424/201238944-977cc328-b8b6-4600-bde5-0b8667d9d9a8.png)
  
 
