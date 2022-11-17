@@ -47,7 +47,7 @@ SQLalchemy/pgAdmin
 
 Jupyter Notebook
 
-Tableau
+Tableau : https://public.tableau.com/app/profile/alison.cook3572/viz/ClimateChange_16671785041230/Story1?publish=yes
 
 Google Slides: https://docs.google.com/presentation/d/1-z85JcXZvhZiptGr7-FeUXKVXUaN76JUyfb_Ot5wezs/edit#slide=id.g1727fbf119b_0_35
 
