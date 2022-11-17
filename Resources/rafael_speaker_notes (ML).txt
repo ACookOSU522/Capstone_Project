@@ -1,0 +1,33 @@
+Supervised Machine Learning - Linear Regression / RFR
+
+Data Pre-processing
+
+- After the data that was left, we found that most relevant columns are LandAndOceanAverageTemperature, LandAverageTemperature, LandMaxTemperature, and LandMinTemperature
+
+Feature Selection and Decision Making
+
+- It did not make sense to use LandAndOceanAverageTemperature to predict any other variables so we used this as our predictor variable. Supervised learning was best because the data we had included features and targets.
+
+Description of split
+
+- We were left with 1992 rows of data after pre-processing, the traditional 75% train / 25% split seemed best. 
+
+Advantages and Disadvantages
+
+- Listed in the table below are some advantages and disadvantages of the two models used. After preliminary plotting of the data, we found that there seemed to be a clear linear relationship so even if there was a somewhat longer list of cons, the multiple linear regression model would be a good starting point. We can also see how the results matched up to the line fo best fit in the graph.
+
+- We then compared these results to RFR. We found that for the RFR, the pros outweighed the cons. The use of decision trees helped display more accurate results as we will see in the next slide.
+
+Model Analysis
+
+- In this slide we can see the results of the analysis for both models. We can see that for RFR, the results are ever so slightly better. For this analysis, the best accuracy score we can use is R-Squared because this number basically tells us how well the data fits the model.
+
+- We can also see the graph for RFR matched up with the line of best fit here.
+
+Key Takeaways:
+
+- RFR works better with the data given
+
+- Positive relation between predictor and target variables
+
+- Average temperature is steadily rising with no signs of decreasing if everything stays constant.
