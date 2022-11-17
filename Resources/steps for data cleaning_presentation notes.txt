@@ -1,0 +1,45 @@
+﻿Data cleaning:
+* Got data from kaggle 
+* The data set originates from Berkeley Earth ( a non-profit founded in 2010)
+* First dataset had five separate csvs (global temp, major cities, countries, cities and state)
+* Narrowed down to using major cities, countries, and global temp data
+*  
+* Started with massive datasets and in order to make them more manageable we had to figure out what we wanted our data to answer. 
+* Felt that global was too big and decided to focus on half of the earth
+*  After that we focused on more recent data as it was more likely that data from longer ago was not as filled in.
+*  Finally selected only three cities from the data to focus our scope even more. 
+
+
+
+
+Data Cleaning steps and whys.
+For every csv we had.
+1. Got a general idea for the shape of the data.
+2.  Using d-types, unique() function, and value counts
+3. Looked at how much data was null and dropped it.
+
+
+Global data
+1. Dropped unimportant categories (landandoceanAveragetemp, and average temp uncertainty)
+2. Filtered 1900 and later
+Major cities
+1. Only needed data from the northern hemisphere. 
+2. Removed data with a S’ latitude
+3. Formatted dt column with the %Y-%m-%d
+4. Initially took data from 1900 and later
+5. Made tables for Shanghai Monreal and lagos.
+        
+Countries
+1. Got an idea of the shape of the data
+2. Added another dataframe that had the coordinates of the countries
+3. Dropped useless columns (importance and altitude)
+4. Filtered the data for only northern countries
+5. Merged the two data frames together. (inner)
+
+
+
+
+Canada
+1. Got an idea for the shape of the data. 
+2. Created a new data frame from canada data
+3. Filtered for the 2000’s
